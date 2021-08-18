@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/libs.css">
   <link rel="stylesheet" href="css/style.css">
   <title></title>
 </head>
@@ -16,7 +17,7 @@
 <body>
   <header>
     <div class="container">
-      <a class="logo" href="#">
+      <a class="logo" href="index.html">
         <img src="img/Screen Shot 2021-08-03 at 12.14 1.png" alt="">
       </a>
       <div class="header__menu">
@@ -25,7 +26,7 @@
         <nav class="navbar">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="index.html">Home</a>
             </li>
             <li>
               <a href="#">Product</a>
@@ -34,19 +35,106 @@
               <a href="#">Themen</a>
             </li>
             <li>
-              <a href="#">Kontakt</a>
+              <a href="lk.html">Kontakt</a>
             </li>
           </ul>
         </nav>
       </div>
       <div class="personal__account">
-        <a href="#">Log In</a>
-        <a class="btn" href="#">Sign In <svg width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <a id="pop_2" href="#text-popup_2">Log In</a>
+        <a class="btn" id="pop_4" href="#text-popup_4">Sign In <svg width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1.00012 11.5H16.7501" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
             <path d="M13.0001 15.25L16.7501 11.5L13.0001 7.75" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
             <path d="M8.50009 16V20.5C8.46009 21.29 9.07009 21.96 9.86009 22H22.1401C22.9301 21.96 23.5401 21.29 23.5001 20.5V2.5C23.5401 1.71 22.9301 1.04 22.1401 1H9.87009C9.08009 1.04 8.47009 1.71 8.51009 2.5V7" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
         </a>
+      </div>
+    </div>
+    <div class="white-popup mfp-hide" id="text-popup_2">
+      <div class="entrance">
+        <div class="entrance__item entrance__item-one">
+          <img src="img/Screen Shot 2021-08-03 at 12.14 1.png" alt="">
+          <h4>Please....</h4>
+          <p>Welcome Back, Please login to your account.</p>
+          <form action="">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Password">
+            <div class="flex">
+              <input class="chek" type="checkbox">
+              <label>Remember me</label>
+            </div>
+            <div class="btns">
+              <a class="log" id="pop_3" href="#text-popup_3">Log In</a>
+              <a class="sign" id="pop_5" href="#text-popup_4">Sign In <svg width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.00012 11.5H16.7501" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M13.0001 15.25L16.7501 11.5L13.0001 7.75" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M8.50009 16V20.5C8.46009 21.29 9.07009 21.96 9.86009 22H22.1401C22.9301 21.96 23.5401 21.29 23.5001 20.5V2.5C23.5401 1.71 22.9301 1.04 22.1401 1H9.87009C9.08009 1.04 8.47009 1.71 8.51009 2.5V7" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </form>
+        </div>
+        <div class="entrance__item entrance__item-two">
+          <div class="flex">
+            <div class="nav-pop">
+              <a href="#">Home</a>
+              <a href="#">Product</a>
+              <a href="#">Themen</a>
+              <a href="#">Kontakt</a>
+            </div>
+            <div class="seacrh-pop">
+              <input type="text">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.8657 20.5695L15.4749 14.1787C16.687 12.6822 17.4167 10.7797 17.4167 8.70837C17.4167 3.9066 13.5101 0 8.70832 0C3.90655 0 0 3.9066 0 8.70837C0 13.5101 3.9066 17.4167 8.70836 17.4167C10.7797 17.4167 12.6822 16.687 14.1787 15.4749L20.5695 21.8658C20.7486 22.0447 21.0387 22.0447 21.2178 21.8658L21.8658 21.2177C22.0447 21.0387 22.0447 20.7485 21.8657 20.5695ZM8.70836 15.5834C4.91727 15.5834 1.83335 12.4995 1.83335 8.70837C1.83335 4.91727 4.91727 1.83335 8.70836 1.83335C12.4995 1.83335 15.5834 4.91727 15.5834 8.70837C15.5834 12.4995 12.4995 15.5834 8.70836 15.5834Z" fill="#A0A0A0" />
+              </svg>
+            </div>
+          </div>
+          <img class="one-pop" src="img/illustration_1_.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="white-popup mfp-hide" id="text-popup_3">
+      <div class="registr">
+        <h2>Регистрация</h2>
+        <p>Пожалуйста, внимательно и аккуратно заполните все поля регистрационной формы. На указанный Вами е-mail будет выслано
+          <br> уведомление о регистрации.
+        </p>
+        <form action="">
+          <label>Ваш Email:
+            <br>
+          </label>
+          <input type="text" placeholder="E-mail">
+          <label>Пароль:
+            <br>
+          </label>
+          <input type="text" placeholder="......">
+          <div class="dop-input">Не менее 6 символов</div>
+          <label>Пароль повторно:
+            <br>
+          </label>
+          <input type="text" placeholder="......">
+          <img class="one-pop" src="img/Screenshot 2021-05-24 at 12.22 1.png" alt="">
+          <div class="flex">
+            <input class="chek" type="checkbox">
+            <label>Я согласен с <span>Условиями предоставления услуг</span>
+            </label>
+          </div>
+          <a class="btn" href="#">registration</a>
+        </form>
+      </div>
+    </div>
+    <div class="white-popup mfp-hide" id="text-popup_4">
+      <div class="sign">
+        <h2>Авторизация</h2>
+        <form action="">
+          <label>Ваш Email:</label>
+          <input type="text">
+          <label>Пароль:</label>
+          <input type="text">
+          <a class="parol" href="#">Забыли пароль?</a>
+          <a class="btn" href="#">sign in</a>
+          <a class="reg" href="#">Регистрация</a>
+        </form>
       </div>
     </div>
   </header>
@@ -217,7 +305,12 @@
   <footer>
     <div class="container">
       <div class="flex">
-        <div class="text">Prodventure ist dafür da, Produktmanagern zu helfen, wertvolle Inhalte schnell zu finden.</div>
+        <div class="item">
+          <a class="logo" href="#">
+            <img src="img/Screen Shot 2021-08-03 at 12.14 1.png" alt="">
+          </a>
+          <div class="text">Prodventure ist dafür da, Produktmanagern zu helfen, wertvolle Inhalte schnell zu finden.</div>
+        </div>
         <div class="footer__item">
           <h3>Support Zone</h3>
           <a href="#">Datenschutz</a>

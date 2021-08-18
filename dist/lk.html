@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/libs.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title></title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <button class="top">
+        <span class="top-dop one">Меню <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 13L7 7L1 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </span>
+        <span style="display:none" class="top-dop two">
+          <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.03419 13L1 7L7.03419 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>скрыть меню
+        </span>
+      </button>
+      <a class="logo" href="index.html">
+        <img src="img/Screen Shot 2021-08-03 at 12.14 1.png" alt="">
+      </a>
+      <div class="header__menu">
+        <input type="checkbox" id="menu-bar">
+        <label class="main-menu-btn-icon" for="menu-bar"></label>
+        <nav class="navbar">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#">Product</a>
+            </li>
+            <li>
+              <a href="#">Themen</a>
+            </li>
+            <li>
+              <a href="#">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!--.personal__account
+    a(href="../lk.html") Log In
+    a.btn(href="#") Sign In <svg width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.00012 11.5H16.7501" stroke="white" stroke-linecap="round" stroke-linejoin="round"/><path d="M13.0001 15.25L16.7501 11.5L13.0001 7.75" stroke="white" stroke-linecap="round" stroke-linejoin="round"/><path d="M8.50009 16V20.5C8.46009 21.29 9.07009 21.96 9.86009 22H22.1401C22.9301 21.96 23.5401 21.29 23.5001 20.5V2.5C23.5401 1.71 22.9301 1.04 22.1401 1H9.87009C9.08009 1.04 8.47009 1.71 8.51009 2.5V7" stroke="white" stroke-linecap="round" stroke-linejoin="round"/></svg>-->
+      <div class="seacrh">
+        <input type="text">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21.8657 20.5695L15.4749 14.1787C16.687 12.6822 17.4167 10.7797 17.4167 8.70837C17.4167 3.9066 13.5101 0 8.70832 0C3.90655 0 0 3.9066 0 8.70837C0 13.5101 3.9066 17.4167 8.70836 17.4167C10.7797 17.4167 12.6822 16.687 14.1787 15.4749L20.5695 21.8658C20.7486 22.0447 21.0387 22.0447 21.2178 21.8658L21.8658 21.2177C22.0447 21.0387 22.0447 20.7485 21.8657 20.5695ZM8.70836 15.5834C4.91727 15.5834 1.83335 12.4995 1.83335 8.70837C1.83335 4.91727 4.91727 1.83335 8.70836 1.83335C12.4995 1.83335 15.5834 4.91727 15.5834 8.70837C15.5834 12.4995 12.4995 15.5834 8.70836 15.5834Z" fill="#A0A0A0" />
+        </svg>
+      </div>
+      <a class="lk-kabinet" href="#">
+        <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="17.4998" cy="14.2005" r="7.7" stroke="#256EA3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M27.6392 30.5181C24.956 27.8181 21.3067 26.2998 17.5002 26.2998C13.6936 26.2998 10.0443 27.8181 7.36108 30.5181" stroke="#256EA3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+          <circle cx="17.5" cy="17.5" r="16.5" stroke="#256EA3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <div class="text">
+          <h4>Nick Nfнdhs</h4>
+          <p>На счету: 35 $</p>
+        </div>
+      </a>
+    </div>
+  </header>
+  <main class="page-container">
+    <section class="lk">
+      <div class="container">
+        <div class="sidebar">
+          <div class="personal">
+            <img src="img/Ellipse 64.png" alt="">
+            <div class="nickname">
+              <h4>Nick Family</h4>
+              <p>На счету: 35 $</p>
+            </div>
+          </div>
+          <div class="interes">
+            <a href="#">Любимые темы</a>
+            <a href="#">Ключевое</a>
+            <a href="#">UI/UX</a>
+          </div>
+          <div class="acor-container">
+            <input type="checkbox" name="chacor" id="chacor1" />
+            <label for="chacor1">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#256EA3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 8V12" stroke="#256EA3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 16H12.01" stroke="#256EA3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>Новости
+            </label>
+            <div class="acor-body">
+              <a href="#">Название 1</a>
+              <a href="#">Название 2</a>
+              <a href="#">Название 3</a>
+            </div>
+            <input type="checkbox" name="chacor" id="chacor2" />
+            <label for="chacor2">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#256EA3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M14 2V8H20" stroke="#256EA3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M16 13H8" stroke="#256EA3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M16 17H8" stroke="#256EA3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M10 9H9H8" stroke="#256EA3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>Важная информация
+            </label>
+            <div class="acor-body">
+              <a href="#">Название 1</a>
+              <a href="#">Название 2</a>
+              <a href="#">Название 3</a>
+            </div>
+            <input type="checkbox" name="chacor" id="chacor3" />
+            <label for="chacor3">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 19C22 19.5304 21.7893 20.0391 21.4142 20.4142C21.0391 20.7893 20.5304 21 20 21H4C3.46957 21 2.96086 20.7893 2.58579 20.4142C2.21071 20.0391 2 19.5304 2 19V5C2 4.46957 2.21071 3.96086 2.58579 3.58579C2.96086 3.21071 3.46957 3 4 3H9L11 6H20C20.5304 6 21.0391 6.21071 21.4142 6.58579C21.7893 6.96086 22 7.46957 22 8V19Z" stroke="#256EA3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 11V17" stroke="#256EA3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M9 14H15" stroke="#256EA3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>Сохраненные карточки курсов
+            </label>
+            <div class="acor-body">
+              <a href="#">Название 1</a>
+              <a href="#">Название 2</a>
+              <a href="#">Название 3</a>
+            </div>
+            <input type="checkbox" name="chacor" id="chacor4" />
+            <label for="chacor4">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="#256EA3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#256EA3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>Просмотренные курсы
+            </label>
+            <div class="acor-body">
+              <a href="#">Название 1</a>
+              <a href="#">Название 2</a>
+              <a href="#">Название 3</a>
+            </div>
+            <input type="checkbox" name="chacor" id="chacor5" />
+            <label for="chacor5">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#256EA3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M19.4 15C19.2669 15.3016 19.2272 15.6362 19.286 15.9606C19.3448 16.285 19.4995 16.5843 19.73 16.82L19.79 16.88C19.976 17.0657 20.1235 17.2863 20.2241 17.5291C20.3248 17.7719 20.3766 18.0322 20.3766 18.295C20.3766 18.5578 20.3248 18.8181 20.2241 19.0609C20.1235 19.3037 19.976 19.5243 19.79 19.71C19.6043 19.896 19.3837 20.0435 19.1409 20.1441C18.8981 20.2448 18.6378 20.2966 18.375 20.2966C18.1122 20.2966 17.8519 20.2448 17.6091 20.1441C17.3663 20.0435 17.1457 19.896 16.96 19.71L16.9 19.65C16.6643 19.4195 16.365 19.2648 16.0406 19.206C15.7162 19.1472 15.3816 19.1869 15.08 19.32C14.7842 19.4468 14.532 19.6572 14.3543 19.9255C14.1766 20.1938 14.0813 20.5082 14.08 20.83V21C14.08 21.5304 13.8693 22.0391 13.4942 22.4142C13.1191 22.7893 12.6104 23 12.08 23C11.5496 23 11.0409 22.7893 10.6658 22.4142C10.2907 22.0391 10.08 21.5304 10.08 21V20.91C10.0723 20.579 9.96512 20.258 9.77251 19.9887C9.5799 19.7194 9.31074 19.5143 9 19.4C8.69838 19.2669 8.36381 19.2272 8.03941 19.286C7.71502 19.3448 7.41568 19.4995 7.18 19.73L7.12 19.79C6.93425 19.976 6.71368 20.1235 6.47088 20.2241C6.22808 20.3248 5.96783 20.3766 5.705 20.3766C5.44217 20.3766 5.18192 20.3248 4.93912 20.2241C4.69632 20.1235 4.47575 19.976 4.29 19.79C4.10405 19.6043 3.95653 19.3837 3.85588 19.1409C3.75523 18.8981 3.70343 18.6378 3.70343 18.375C3.70343 18.1122 3.75523 17.8519 3.85588 17.6091C3.95653 17.3663 4.10405 17.1457 4.29 16.96L4.35 16.9C4.58054 16.6643 4.73519 16.365 4.794 16.0406C4.85282 15.7162 4.81312 15.3816 4.68 15.08C4.55324 14.7842 4.34276 14.532 4.07447 14.3543C3.80618 14.1766 3.49179 14.0813 3.17 14.08H3C2.46957 14.08 1.96086 13.8693 1.58579 13.4942C1.21071 13.1191 1 12.6104 1 12.08C1 11.5496 1.21071 11.0409 1.58579 10.6658C1.96086 10.2907 2.46957 10.08 3 10.08H3.09C3.42099 10.0723 3.742 9.96512 4.0113 9.77251C4.28059 9.5799 4.48572 9.31074 4.6 9C4.73312 8.69838 4.77282 8.36381 4.714 8.03941C4.65519 7.71502 4.50054 7.41568 4.27 7.18L4.21 7.12C4.02405 6.93425 3.87653 6.71368 3.77588 6.47088C3.67523 6.22808 3.62343 5.96783 3.62343 5.705C3.62343 5.44217 3.67523 5.18192 3.77588 4.93912C3.87653 4.69632 4.02405 4.47575 4.21 4.29C4.39575 4.10405 4.61632 3.95653 4.85912 3.85588C5.10192 3.75523 5.36217 3.70343 5.625 3.70343C5.88783 3.70343 6.14808 3.75523 6.39088 3.85588C6.63368 3.95653 6.85425 4.10405 7.04 4.29L7.1 4.35C7.33568 4.58054 7.63502 4.73519 7.95941 4.794C8.28381 4.85282 8.61838 4.81312 8.92 4.68H9C9.29577 4.55324 9.54802 4.34276 9.72569 4.07447C9.90337 3.80618 9.99872 3.49179 10 3.17V3C10 2.46957 10.2107 1.96086 10.5858 1.58579C10.9609 1.21071 11.4696 1 12 1C12.5304 1 13.0391 1.21071 13.4142 1.58579C13.7893 1.96086 14 2.46957 14 3V3.09C14.0013 3.41179 14.0966 3.72618 14.2743 3.99447C14.452 4.26276 14.7042 4.47324 15 4.6C15.3016 4.73312 15.6362 4.77282 15.9606 4.714C16.285 4.65519 16.5843 4.50054 16.82 4.27L16.88 4.21C17.0657 4.02405 17.2863 3.87653 17.5291 3.77588C17.7719 3.67523 18.0322 3.62343 18.295 3.62343C18.5578 3.62343 18.8181 3.67523 19.0609 3.77588C19.3037 3.87653 19.5243 4.02405 19.71 4.21C19.896 4.39575 20.0435 4.61632 20.1441 4.85912C20.2448 5.10192 20.2966 5.36217 20.2966 5.625C20.2966 5.88783 20.2448 6.14808 20.1441 6.39088C20.0435 6.63368 19.896 6.85425 19.71 7.04L19.65 7.1C19.4195 7.33568 19.2648 7.63502 19.206 7.95941C19.1472 8.28381 19.1869 8.61838 19.32 8.92V9C19.4468 9.29577 19.6572 9.54802 19.9255 9.72569C20.1938 9.90337 20.5082 9.99872 20.83 10H21C21.5304 10 22.0391 10.2107 22.4142 10.5858C22.7893 10.9609 23 11.4696 23 12C23 12.5304 22.7893 13.0391 22.4142 13.4142C22.0391 13.7893 21.5304 14 21 14H20.91C20.5882 14.0013 20.2738 14.0966 20.0055 14.2743C19.7372 14.452 19.5268 14.7042 19.4 15V15Z" stroke="#256EA3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>Настройки
+            </label>
+            <div class="acor-body">
+              <a href="#">Название 1</a>
+              <a href="#">Название 2</a>
+              <a href="#">Название 3</a>
+            </div>
+          </div>
+        </div>
+        <div class="mains">
+          <div class="white-popup mfp-hide" id="text-popup_1">
+            <div class="header-pop">
+              <img src="img/Rectangle 369.png" alt="">
+              <div class="title-pop">
+                <h4>Название</h4>
+                <p>Категория</p>
+              </div>
+              <div class="tabs-pop">
+                <a class="pop__tab pop__tab--active" href="#pop1">Overview</a>
+                <a class="pop__tab" href="#pop2">Instructor</a>
+                <a class="pop__tab" href="#pop3">Reviews</a>
+                <a class="pop__tab" href="#pop4">Comments</a>
+              </div>
+              <a href="#">
+                <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="15.2501" cy="12.4003" r="6.65" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M24.0066 26.4932C21.6893 24.1613 18.5376 22.85 15.2501 22.85C11.9626 22.85 8.81096 24.1613 6.49365 26.4932" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                  <circle cx="15.25" cy="15.25" r="14.25" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+            <div class="body-pop">
+              <div class="sidebar-pop">
+                <div class="acors-container">
+                  <input type="checkbox" name="chacor" id="chacor1" />
+                  <label for="chacor1">Глава 1</label>
+                  <div class="acors-body">
+                    <a href="#">Урок 1</a>
+                    <a href="#">Урок 2</a>
+                    <a href="#">Урок 3</a>
+                  </div>
+                  <input type="checkbox" name="chacor" id="chacor2" />
+                  <label for="chacor2">Глава 2</label>
+                  <div class="acors-body">
+                    <a href="#">Урок 1</a>
+                    <a href="#">Урок 2</a>
+                    <a href="#">Урок 3</a>
+                  </div>
+                  <input type="checkbox" name="chacor" id="chacor3" />
+                  <label for="chacor3">Глава 3</label>
+                  <div class="acors-body">
+                    <a href="#">Урок 1</a>
+                    <a href="#">Урок 2</a>
+                    <a href="#">Урок 3</a>
+                  </div>
+                  <input type="checkbox" name="chacor" id="chacor4" />
+                  <label for="chacor4">Глава 4</label>
+                  <div class="acors-body">
+                    <a href="#">Урок 1</a>
+                    <a href="#">Урок 2</a>
+                    <a href="#">Урок 3</a>
+                  </div>
+                </div>
+              </div>
+              <div class="pop__item pop__item--active" id="pop1">
+                <div class="flex">
+                  <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="19.0001" cy="15.4009" r="8.4" stroke="#7C7C7C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M30.0611 33.202C27.1339 30.2565 23.1529 28.6002 19.0003 28.6002C14.8477 28.6002 10.8666 30.2565 7.93945 33.202" stroke="#7C7C7C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                    <circle cx="19" cy="19" r="18" stroke="#7C7C7C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  <div class="names">
+                    <h4>Instructor Name</h4>
+                    <p>Teacher</p>
+                  </div>
+                  <div class="category">
+                    <h4>Category</h4>
+                    <p>3D Modeling</p>
+                  </div>
+                  <div class="reviews">
+                    <h4>Reviews</h4>
+                    <svg width="102" height="16" viewBox="0 0 102 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M93 0L95.781 5.26604L102 6.11567L97.5 10.2124L98.562 16L93 13.266L87.438 16L88.5 10.2124L84 6.11567L90.219 5.26604L93 0Z" fill="#F6DE00" />
+                      <path d="M72 0L74.781 5.26604L81 6.11567L76.5 10.2124L77.562 16L72 13.266L66.438 16L67.5 10.2124L63 6.11567L69.219 5.26604L72 0Z" fill="#F6DE00" />
+                      <path d="M51 0L53.781 5.26604L60 6.11567L55.5 10.2124L56.562 16L51 13.266L45.438 16L46.5 10.2124L42 6.11567L48.219 5.26604L51 0Z" fill="#F6DE00" />
+                      <path d="M30 0L32.781 5.26604L39 6.11567L34.5 10.2124L35.562 16L30 13.266L24.438 16L25.5 10.2124L21 6.11567L27.219 5.26604L30 0Z" fill="#F6DE00" />
+                      <path d="M9 0L11.781 5.26604L18 6.11567L13.5 10.2124L14.562 16L9 13.266L3.438 16L4.5 10.2124L0 6.11567L6.219 5.26604L9 0Z" fill="#F6DE00" />
+                    </svg>
+                    <span>5 (3 Rating)</span>
+                  </div>
+                </div>
+                <iframe width="809" height="582" src="https://www.youtube.com/embed/yhS9LnDoo_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="pop__item" id="pop2">
+                <h4>Instructor</h4>
+                <p>IT Specialist</p>
+                <div class="flex">
+                  <div class="img-cart">
+                    <svg width="69" height="69" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="34.5003" cy="27.8011" r="15.6333" stroke="#7C7C7C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M55.0858 60.9311C49.6381 55.4492 42.2289 52.3666 34.5004 52.3666C26.772 52.3666 19.3627 55.4492 13.915 60.9311" stroke="#7C7C7C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                      <circle cx="34.5" cy="34.5" r="33.5" stroke="#7C7C7C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <div class="text-cart">
+                    <h4>Teacher</h4>
+                    <p>IT Specialist</p>
+                    <div class="desc-cart">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in vehicula sapien, sit amet dictum dui. Quisque pharetra, urna eget iaculis dictum, nibh purus congue mauris, eget consectetur tellus dolor vel ex. </div>
+                    <div class="interes-cart">
+                      <a href="#">
+                        <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M15 4.22223H1" stroke="#7C7C7C" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M19 0.666687H1" stroke="#7C7C7C" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M19 7.77777H1" stroke="#7C7C7C" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M15 11.3334H1" stroke="#7C7C7C" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg> 11 Courses
+                      </a>
+                      <a href="#">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="10.0004" cy="8.20024" r="4.2" stroke="#7C7C7C" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M15.5309 17.1013C14.0673 15.6286 12.0768 14.8004 10.0005 14.8004C7.9242 14.8004 5.93365 15.6286 4.47009 17.1013" stroke="#7C7C7C" stroke-linecap="round" stroke-linejoin="round" />
+                          <circle cx="10" cy="10" r="9" stroke="#7C7C7C" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg> 24 Students
+                      </a>
+                      <a href="#">
+                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M16 10.5C16 10.942 15.8244 11.366 15.5118 11.6785C15.1993 11.9911 14.7754 12.1667 14.3333 12.1667H4.33333L1 15.5V2.16667C1 1.72464 1.17559 1.30072 1.48816 0.988155C1.80072 0.675595 2.22464 0.5 2.66667 0.5H14.3333C14.7754 0.5 15.1993 0.675595 15.5118 0.988155C15.8244 1.30072 16 1.72464 16 2.16667V10.5Z" stroke="#7C7C7C" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg> 3 Reviews
+                      </a>
+                      <a href="#">
+                        <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10 1L12.781 6.26604L19 7.11567L14.5 11.2124L15.562 17L10 14.266L4.438 17L5.5 11.2124L1 7.11567L7.219 6.26604L10 1Z" stroke="#7C7C7C" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg> 5 Rating
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="dop-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in vehicula sapien, sit amet dictum dui. Quisque pharetra, urna eget iaculis dictum, nibh purus congue mauris, eget consectetur tellus dolor vel ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in vehicula sapien, sit amet dictum dui. Quisque pharetra, urna eget iaculis dictum, nibh purus congue mauris, eget consectetur tellus dolor vel ex. </div>
+              </div>
+              <div class="pop__item" id="pop3">
+                <h4>Instructor</h4>
+                <p>IT Specialist</p>
+                <div class="flex">
+                  <div class="flex_item">
+                    <h4>Instructor</h4>
+                    <div class="block__revies">
+                      <img src="img/Ellipse 64.png" alt="">
+                      <div class="revies__text">
+                        <svg width="102" height="16" viewBox="0 0 102 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M93 0L95.781 5.26604L102 6.11567L97.5 10.2124L98.562 16L93 13.266L87.438 16L88.5 10.2124L84 6.11567L90.219 5.26604L93 0Z" fill="#F6DE00" />
+                          <path d="M72 0L74.781 5.26604L81 6.11567L76.5 10.2124L77.562 16L72 13.266L66.438 16L67.5 10.2124L63 6.11567L69.219 5.26604L72 0Z" fill="#F6DE00" />
+                          <path d="M51 0L53.781 5.26604L60 6.11567L55.5 10.2124L56.562 16L51 13.266L45.438 16L46.5 10.2124L42 6.11567L48.219 5.26604L51 0Z" fill="#F6DE00" />
+                          <path d="M30 0L32.781 5.26604L39 6.11567L34.5 10.2124L35.562 16L30 13.266L24.438 16L25.5 10.2124L21 6.11567L27.219 5.26604L30 0Z" fill="#F6DE00" />
+                          <path d="M9 0L11.781 5.26604L18 6.11567L13.5 10.2124L14.562 16L9 13.266L3.438 16L4.5 10.2124L0 6.11567L6.219 5.26604L9 0Z" fill="#F6DE00" />
+                        </svg>
+                        <h4>Very good! </h4>
+                        <p>Anna Family<span>1 month ago</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="block__revies">
+                      <img src="img/Ellipse 64.png" alt="">
+                      <div class="revies__text">
+                        <svg width="102" height="16" viewBox="0 0 102 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M93 0L95.781 5.26604L102 6.11567L97.5 10.2124L98.562 16L93 13.266L87.438 16L88.5 10.2124L84 6.11567L90.219 5.26604L93 0Z" fill="#F6DE00" />
+                          <path d="M72 0L74.781 5.26604L81 6.11567L76.5 10.2124L77.562 16L72 13.266L66.438 16L67.5 10.2124L63 6.11567L69.219 5.26604L72 0Z" fill="#F6DE00" />
+                          <path d="M51 0L53.781 5.26604L60 6.11567L55.5 10.2124L56.562 16L51 13.266L45.438 16L46.5 10.2124L42 6.11567L48.219 5.26604L51 0Z" fill="#F6DE00" />
+                          <path d="M30 0L32.781 5.26604L39 6.11567L34.5 10.2124L35.562 16L30 13.266L24.438 16L25.5 10.2124L21 6.11567L27.219 5.26604L30 0Z" fill="#F6DE00" />
+                          <path d="M9 0L11.781 5.26604L18 6.11567L13.5 10.2124L14.562 16L9 13.266L3.438 16L4.5 10.2124L0 6.11567L6.219 5.26604L9 0Z" fill="#F6DE00" />
+                        </svg>
+                        <h4>I dont like it</h4>
+                        <p>Danic Family<span>2 month ago</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="block__revies">
+                      <img src="img/Ellipse 64.png" alt="">
+                      <div class="revies__text">
+                        <svg width="102" height="16" viewBox="0 0 102 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M93 0L95.781 5.26604L102 6.11567L97.5 10.2124L98.562 16L93 13.266L87.438 16L88.5 10.2124L84 6.11567L90.219 5.26604L93 0Z" fill="#F6DE00" />
+                          <path d="M72 0L74.781 5.26604L81 6.11567L76.5 10.2124L77.562 16L72 13.266L66.438 16L67.5 10.2124L63 6.11567L69.219 5.26604L72 0Z" fill="#F6DE00" />
+                          <path d="M51 0L53.781 5.26604L60 6.11567L55.5 10.2124L56.562 16L51 13.266L45.438 16L46.5 10.2124L42 6.11567L48.219 5.26604L51 0Z" fill="#F6DE00" />
+                          <path d="M30 0L32.781 5.26604L39 6.11567L34.5 10.2124L35.562 16L30 13.266L24.438 16L25.5 10.2124L21 6.11567L27.219 5.26604L30 0Z" fill="#F6DE00" />
+                          <path d="M9 0L11.781 5.26604L18 6.11567L13.5 10.2124L14.562 16L9 13.266L3.438 16L4.5 10.2124L0 6.11567L6.219 5.26604L9 0Z" fill="#F6DE00" />
+                        </svg>
+                        <h4>I like it</h4>
+                        <p>Donni Family <span>4 month ago</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="block__revies">
+                      <img src="img/Ellipse 64.png" alt="">
+                      <div class="revies__text">
+                        <svg width="102" height="16" viewBox="0 0 102 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M93 0L95.781 5.26604L102 6.11567L97.5 10.2124L98.562 16L93 13.266L87.438 16L88.5 10.2124L84 6.11567L90.219 5.26604L93 0Z" fill="#F6DE00" />
+                          <path d="M72 0L74.781 5.26604L81 6.11567L76.5 10.2124L77.562 16L72 13.266L66.438 16L67.5 10.2124L63 6.11567L69.219 5.26604L72 0Z" fill="#F6DE00" />
+                          <path d="M51 0L53.781 5.26604L60 6.11567L55.5 10.2124L56.562 16L51 13.266L45.438 16L46.5 10.2124L42 6.11567L48.219 5.26604L51 0Z" fill="#F6DE00" />
+                          <path d="M30 0L32.781 5.26604L39 6.11567L34.5 10.2124L35.562 16L30 13.266L24.438 16L25.5 10.2124L21 6.11567L27.219 5.26604L30 0Z" fill="#F6DE00" />
+                          <path d="M9 0L11.781 5.26604L18 6.11567L13.5 10.2124L14.562 16L9 13.266L3.438 16L4.5 10.2124L0 6.11567L6.219 5.26604L9 0Z" fill="#F6DE00" />
+                        </svg>
+                        <h4>Best course</h4>
+                        <p>Foni Family<span>7 month ago</span>
+                        </p>
+                      </div>
+                    </div>
+                    <a href="#">Read All reviews </a>
+                  </div>
+                  <div class="flex_item">
+                    <div class="revies__star">
+                      <div class="number__star">4.0</div>
+                      <div class="flex">
+                        <svg width="40" height="37" viewBox="0 0 40 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M20.0909 1L25.99 12.5195L39.1818 14.378L29.6364 23.3396L31.8891 36L20.0909 30.0195L8.29273 36L10.5455 23.3396L1 14.378L14.1918 12.5195L20.0909 1Z" fill="#F7DE00" stroke="#F7DE00" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="40" height="37" viewBox="0 0 40 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M20.0909 1L25.99 12.5195L39.1818 14.378L29.6364 23.3396L31.8891 36L20.0909 30.0195L8.29273 36L10.5455 23.3396L1 14.378L14.1918 12.5195L20.0909 1Z" fill="#F7DE00" stroke="#F7DE00" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="40" height="37" viewBox="0 0 40 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M20.0909 1L25.99 12.5195L39.1818 14.378L29.6364 23.3396L31.8891 36L20.0909 30.0195L8.29273 36L10.5455 23.3396L1 14.378L14.1918 12.5195L20.0909 1Z" fill="#F7DE00" stroke="#F7DE00" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="40" height="37" viewBox="0 0 40 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M20.0909 1L25.99 12.5195L39.1818 14.378L29.6364 23.3396L31.8891 36L20.0909 30.0195L8.29273 36L10.5455 23.3396L1 14.378L14.1918 12.5195L20.0909 1Z" fill="#F7DE00" stroke="#F7DE00" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="40" height="37" viewBox="0 0 40 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M20 1L25.8991 12.5195L39.0909 14.378L29.5455 23.3396L31.7982 36L20 30.0195L8.20182 36L10.4545 23.3396L0.909088 14.378L14.1009 12.5195L20 1Z" stroke="#F7DE00" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                    </div>
+                    <p>Course Rating</p>
+                    <div class="string">5 <div class="one__string"></div> 70%</div>
+                    <div class="string">4 <div class="two__string"></div> 30%</div>
+                    <div class="string">3 <div class="three__string"></div> 0%</div>
+                    <div class="string">2 <div class="four__string"></div> 0%</div>
+                    <div class="string">1 <div class="five__string"></div> 0%</div>
+                  </div>
+                </div>
+              </div>
+              <div class="pop__item" id="pop4">
+                <h4>Student Feedback</h4>
+                <p>Название курса </p>
+              </div>
+            </div>
+          </div>
+          <div class="lk-blocks__items">
+            <h2>Новые курсы для Вас</h2>
+            <p>Finden Sie hier alles, was ein Produktmanager jeden Tag braucht, um ein Produkt zu entwickeln</p>
+            <div class="flex">
+              <a class="lk-blocks__item" id="pop_1" href="#text-popup_1">
+                <div class="flex">
+                  <img src="img/_2366691959200.svg" alt="">
+                  <div class="title">Testkurs</div>
+                </div>
+                <div class="crumbs">Kategory > <span>lesson1</span>
+                </div>
+                <div class="description">Course description to test</div>
+              </a>
+              <a class="lk-blocks__item" href="#">
+                <div class="flex">
+                  <img src="img/_2366691959200.svg" alt="">
+                  <div class="title">Testkurs</div>
+                </div>
+                <div class="crumbs">Kategory > <span>lesson1</span>
+                </div>
+                <div class="description">Course description to test</div>
+              </a>
+              <a class="lk-blocks__item" href="#">
+                <div class="flex">
+                  <img src="img/_2366691959200.svg" alt="">
+                  <div class="title">Testkurs</div>
+                </div>
+                <div class="crumbs">Kategory > <span>lesson1</span>
+                </div>
+                <div class="description">Course description to test</div>
+              </a>
+            </div>
+          </div>
+          <div class="lk-blocks__items">
+            <h2>Рекомендованные для Вас</h2>
+            <p>Finden Sie hier alles, was ein Produktmanager jeden Tag braucht, um ein Produkt zu entwickeln, die seine Nutzer lieben</p>
+            <div class="flex">
+              <a class="lk-blocks__item" href="#">
+                <div class="flex">
+                  <img src="img/_2366691959200.svg" alt="">
+                  <div class="title">Testkurs</div>
+                </div>
+                <div class="crumbs">Kategory > <span>lesson1</span>
+                </div>
+                <div class="description">Course description to test</div>
+              </a>
+              <a class="lk-blocks__item" href="#">
+                <div class="flex">
+                  <img src="img/_2366705766656.svg" alt="">
+                  <div class="title">LEAN Product Management</div>
+                </div>
+                <div class="crumbs">Kategory > <span>lesson1</span>
+                </div>
+                <div class="description">Ein Minikurs für angehende Produktmanager, die effektive, nutzerfreundliche Produkte erstellen und dabei Spaß haben wollen.</div>
+              </a>
+              <a class="lk-blocks__item" href="#">
+                <div class="flex">
+                  <img src="img/_2366705744288.svg" alt="">
+                  <div class="title">Beruf des Produktmanagers: Skills, Erfahrungen, Know-How</div>
+                </div>
+                <div class="crumbs">Kategory > <span>lesson1</span>
+                </div>
+                <div class="description">Dies ist eine Sammlung von Inhalten zum Thema Produktmanager und seine Kenntnisse, Fähigkeiten und Erfahrungen</div>
+              </a>
+            </div>
+          </div>
+          <div class="chat">
+            <h3>Не нашли то что искали?</h3>
+            <div class="line"> </div>
+            <div class="radi"></div>
+            <a href="#">Чат со специалистом</a>
+          </div>
+          <div class="lk-blocks__items">
+            <h2>Недавно просмотренные</h2>
+            <p>Finden Sie hier alles, was ein Produktmanager jeden Tag braucht, um ein Produkt zu entwickeln</p>
+            <div class="flex">
+              <a class="lk-blocks__item" href="#">
+                <div class="flex">
+                  <img src="img/_2366691959200.svg" alt="">
+                  <div class="title">Testkurs</div>
+                </div>
+                <div class="crumbs">Kategory > <span>lesson1</span>
+                </div>
+                <div class="description">Course description to test</div>
+              </a>
+              <a class="lk-blocks__item" href="#">
+                <div class="flex">
+                  <img src="img/_2366705766656.svg" alt="">
+                  <div class="title">LEAN Product Management</div>
+                </div>
+                <div class="crumbs">Kategory > <span>lesson1</span>
+                </div>
+                <div class="description">Ein Minikurs für angehende Produktmanager, die effektive, nutzerfreundliche Produkte erstellen und dabei Spaß haben wollen.</div>
+              </a>
+              <a class="lk-blocks__item" href="#">
+                <div class="flex">
+                  <img src="img/_2366705744288.svg" alt="">
+                  <div class="title">Beruf des Produktmanagers: Skills, Erfahrungen, Know-How</div>
+                </div>
+                <div class="crumbs">Kategory > <span>lesson1</span>
+                </div>
+                <div class="description">Dies ist eine Sammlung von Inhalten zum Thema Produktmanager und seine Kenntnisse, Fähigkeiten und Erfahrungen</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="flex">
+        <div class="item">
+          <a class="logo" href="#">
+            <img src="img/Screen Shot 2021-08-03 at 12.14 1.png" alt="">
+          </a>
+          <div class="text">Prodventure ist dafür da, Produktmanagern zu helfen, wertvolle Inhalte schnell zu finden.</div>
+        </div>
+        <div class="footer__item">
+          <h3>Support Zone</h3>
+          <a href="#">Datenschutz</a>
+          <a href="#">Sitemap</a>
+        </div>
+        <div class="footer__item">
+          <h3>Company Info</h3>
+          <a href="#">Über uns</a>
+          <a href="#">Kontakt</a>
+        </div>
+        <div class="footer__item dop">
+          <h3>Explore Services</h3>
+          <a href="#">Blog</a>
+        </div>
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="copyrights">Copyright © 2021. All rights reserved</div>
+  </footer>
+  <script src="js/jquery/dist/jquery.min.js"></script>
+  <script src="js/libs.js"></script>
+  <script src="js/common.js"></script>
+</body>
+
+</html>
